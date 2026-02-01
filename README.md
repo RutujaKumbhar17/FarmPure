@@ -42,7 +42,6 @@ To run this project locally, you need to set up a few things:
         ├── evaluate_model.py
         └── plot_graph.py
     ```
-
 2.  **Run the Backend Server**:
     The provided `app.py` file uses the Flask framework to handle routing. To start the server, navigate to the `FarmPure` directory in your terminal and run:
 
@@ -50,6 +49,7 @@ To run this project locally, you need to set up a few things:
     pip install Flask
     python app.py
     ```
+    
     Once the server is running, you can access the website by opening your web browser and navigating to `http://127.0.0.1:5000`.
 
 3.  **Database Setup (Optional)**:
@@ -75,3 +75,4 @@ To run this project locally, you need to set up a few things:
 * **Intuitive Navigation**: Easy-to-use navigation bars on the user and farmer homepages.
 * **Geolocation**: The `gps.html` page demonstrates how to get the user's current location using a JavaScript API.
 * **Data-Driven Insights**: The pricing model scripts show how the platform could provide valuable data to farmers to help them set optimal prices.
+
