@@ -1,4 +1,4 @@
-# FarmPure
+# FarmPure Made of Farmers
 
 FarmPure is a web application designed to connect local farmers with consumers, providing a platform for selling and purchasing fresh, natural produce directly from the farm. The project includes a multi-page website for user and farmer interactions, a database schema, and a machine learning model for predicting optimal product prices.
 
