@@ -2,7 +2,6 @@
 
 FarmPure is a web application designed to connect local farmers with consumers, providing a platform for selling and purchasing fresh, natural produce directly from the farm. The project includes a multi-page website for user and farmer interactions, a database schema, and a machine learning model for predicting optimal product prices.
 
-
 ### Project Structure
 
 The project is organized into the following key components:
@@ -11,6 +10,7 @@ The project is organized into the following key components:
 -   **CSS & JavaScript**: A stylesheet for consistent design and a script for specific functionalities like geolocation.
 -   **Backend & Database**: A Flask-based Python server for routing and a MySQL database schema (`farmpure.sql`) for managing user, farmer, and product data.
 -   **Pricing Model**: Python scripts for a machine learning model that analyzes market data to suggest optimal product prices for farmers.
+
 
 ### Getting Started
 
