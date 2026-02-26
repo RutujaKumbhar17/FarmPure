@@ -3,16 +3,7 @@ import os
 
 app = Flask(__name__, template_folder='.')
 
-# Define the path to the folders where your static files are located.
-# This path is relative to the location of this app.py file.
 STATIC_DIR = os.path.abspath(os.path.dirname(__file__))
-
-# ==============================================================================
-# --- General Routes for HTML Pages ---
-# These routes correspond to each HTML file in the project.
-# The `render_template` function looks for files in the 'templates' folder by default.
-# Since all HTML files are in the root directory, we specify the directory directly.
-# ==============================================================================
 
 @app.route('/')
 def home():
@@ -93,3 +84,4 @@ if __name__ == '__main__':
     # Run the application in debug mode.
     # The debug=True flag automatically reloads the server on code changes.
     app.run(debug=True)
+
